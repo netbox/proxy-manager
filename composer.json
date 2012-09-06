@@ -1,0 +1,23 @@
+{
+    "name": "netbox/proxymanager",
+    "type": "library",
+    "description": "Proxy provider, proxy checker",
+    "keywords": ["proxy", "proxy checker"],
+    "homepage": "http://github.com/netbox/proxymanager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Protasov",
+            "email": "dmitriy.protasov@gmail.com",
+            "homepage": "http://protasov.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "NetBox\\ProxyManager\\": "src/"
+        }
+    }
+}
