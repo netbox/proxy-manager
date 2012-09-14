@@ -1,9 +1,9 @@
 {
-    "name": "netbox/proxymanager",
+    "name": "netbox/proxy-manager",
     "type": "library",
     "description": "Proxy provider, proxy checker",
     "keywords": ["proxy", "proxy checker"],
-    "homepage": "http://github.com/netbox/proxymanager",
+    "homepage": "http://github.com/netbox/proxy-manager",
     "license": "MIT",
     "authors": [
         {
