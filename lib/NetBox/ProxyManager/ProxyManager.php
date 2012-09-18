@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ProxyManager;
+namespace NetBox\ProxyManager;
 
 class ProxyManager
 {
