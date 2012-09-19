@@ -21,11 +21,6 @@ class ProxyList
 
     protected $proxyHashes = array();
 
-    public function setUpdater(\NetBox\ProxyManager\Storage\StorageAdapter $adapter, $timeout = 600)
-    {
-
-    }
-
     /**
      * Add proxy in list
      *

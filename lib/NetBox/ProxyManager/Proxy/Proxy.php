@@ -16,6 +16,7 @@ class Proxy
 {
     private $hash;
     private $ip;
+    private $realIp;
     private $port;
     private $type;
 
@@ -44,6 +45,16 @@ class Proxy
     public function getIp()
     {
         return $this->ip;
+    }
+
+    public function setRealIp($realIp)
+    {
+        $this->realIp = $realIp;
+    }
+
+    public function getRealIp()
+    {
+        return $this->realIp;
     }
 
     public function setPort($port)
