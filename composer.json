@@ -14,8 +14,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "doctrine/common" : "dev-master",
-        "doctrine/dbal": "dev-master"
+        "doctrine/common" : "2.3.x-dev",
+        "doctrine/dbal": "2.3.x-dev"
     },
     "autoload": {
         "psr-0": {
